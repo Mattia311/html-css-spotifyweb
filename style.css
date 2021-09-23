@@ -4,8 +4,19 @@
     padding: 0%;
 }
 /* utility */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .flex {
     display: flex;
+}
+p {
+    color: #A3A3A3;
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 19px;
 }
  /* /utility */
  
@@ -14,22 +25,24 @@
  }
  .spotify {
      background-color: black;
-     height: 800px;
+     height: 740px;
      width: 250px;
      position: fixed;
      z-index: 3;
+     flex-direction: column;
+     justify-content: space-between;
  }
  .played {
      background-color: #141922;
-     width: 200vh;
+     width: 1441px;
      height: 1500px;
      z-index: 1;
      position: relative;
  }
  .upgrade {
-     width: 100%;
+     width: 1440px;
      height: 80px;
-     background-color: rgba(0, 0, 0, 0.342);
+     background-color: #080B12;
      position: absolute;
      z-index: 2;
      top: 0%;
@@ -37,12 +50,100 @@
 }
 .barra-ascolto {
      position: absolute;
-     width: 100%;
+     width: 1440px;
      height: 80px;
      background-color: #282828;
      z-index: 4;
      bottom: 0%;
      position: fixed;
-     
 }
- 
+.button_upgrade {
+    width: 220px;
+    height: 35px;
+    color: white;
+    margin-left: 83%;
+    background-color: #080B12;
+    margin-top: 20px;
+    border: 1px solid white;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.img-logo {
+    width: 120px;
+    margin-top: 20px;
+}
+.img-home {
+    width: 25px;
+    margin-top: 30px;
+}
+.img-search {
+    width: 25px;
+    margin-top: 10px;
+}
+.img-libreria {
+    width: 25px;
+    margin-top: 10px;
+}
+.img-download {
+    width: 15px;
+    margin-bottom: 10px;
+}
+.img-profil {
+    width: 15px;
+    margin-top: 10px;
+}
+.colon1 {
+   flex-direction: column;
+   width: 225px;
+   margin: auto;
+   margin-top: 0;
+}
+.text-home {
+    margin-top: 35px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+.text-search {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.text-libreria {
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+.fas {
+    color:#A3A3A3;
+    width: 20px;
+    margin-top: 5px;
+
+}
+.text-playlist {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.text-playlist1 {
+    font-size: 12px;
+    margin: 0.5rem 0;
+}
+.colon2 {
+    flex-direction: column;
+    width: 225px;
+    margin: auto;
+    margin-top: 174px;
+ }
+.text-installa {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.sottocolonna {
+    border-bottom: 1px solid #A3A3A3;
+    height: 30px;
+}
+.text-john {
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
