@@ -11,7 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="site_main">
@@ -59,7 +59,10 @@
             <div class="played">
                 <div>
                     <nav class="nav-bar flex">
-                        <a class="text-navbar linea" href="#">IN EVIDENZA</a>
+                        <div class="inevidenza"> 
+                            <a class="text-navbar linea" href="#">IN EVIDENZA</a>
+                            <hr>
+                        </div>
                         <a class="text-navbar" href="#" >PODCAST</a>
                         <a class="text-navbar"href="#" >CLASSIFICHE</a>
                         <a class="text-navbar"href="#" >GENERI E MOOD</a>
@@ -70,35 +73,53 @@
                 <div class="prima-riga">
                     <h1>Recently Played</h1>
                     <div class="recently flex">
-                        <div>
+                        <div class="img-sfondo uno">
                             <img class="img-metal" src="./img/metal_lifting.jpg" alt="">
                             <h3>Heavy Metal</h3>
                             <p class="text-metal">Subtitle</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo due">
                             <img class="img-stranger" src="./img/stranger.jpeg" alt="">
                             <h3>Stranger Things, Vol. <br> 1 (a Netflix Original <br>Series Soundtrack</h3>
                             <p class="text-stranger">Kyle Dixon & Michael Stein</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo tre">
                             <img class="img-place" src="./img/aquietplace.jpeg" alt="">
                             <h3>A Quiet Place</h3>
                             <p class="text-place">Subtitle</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo quattro">
                             <img class="img-split" src="./img/split.jpeg" alt="">
                             <h3>Split</h3>
                             <p class="text-split">Subtitle</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo cinque">
                             <img class="img-cure" src="./img/cure.jpeg" alt="">
                             <h3>A Cure For Wellness</h3>
                             <p class="text-cure">Subtitle</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo sei"> 
                             <img class="img-sinister" src="./img/sinister.jpeg" alt="">
                             <h3>Sinister</h3>
                             <p class="text-sinister">Subtitle</p>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,13 +127,19 @@
                     <h1>Creato Per John Doe</h1>
                     <p class="text-doe">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="John-doe flex">
-                        <div>
+                        <div class="img-sfondo sette">
                             <img class="img-radar" src="./img/radar.jpeg" alt="">
                             <h3>Relase Radar</h3>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo otto">
                             <img class="img-mix" src="./img/mixdaily.jpeg" alt="">
                             <h3>Daily Mix 1</h3>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -120,11 +147,19 @@
                     <h1>Artisti più popolari</h1>
                     <p class="text-doe">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="artisti-popolari flex">
-                        <div>
+                        <div class="img-sfondo nove">
                             <img class="img-youg" src="./img/youg.jpeg" alt="">
+                            <h3>Lana Del Rey</h3>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
-                        <div>
+                        <div class="img-sfondo dieci">
                             <img class="img-einaudi" src="./img/einaudi.jpeg" alt="">
+                            <h3>Einaudi</h3>
+                            <div class="hover">
+                                <i class="far fa-play-circle fa-3x"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -155,6 +190,7 @@
                     <p class="text-tempo">0:25</p>
                     <div class="barra"></div>
                     <div class="barra3"></div>
+                    <div class="pallino-barra"></div>
                     <p class="text-tempo">4:35</p>
                 </div>
             </div>
@@ -164,7 +200,7 @@
                 <i class="fas fa-volume-up"></i>
                 <div class="barra2"></div>
                 <div class="barra4"></div>
-
+                <div class="pallino-barra2"></div>
             </div>
 
         </div>
