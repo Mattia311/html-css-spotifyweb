@@ -101,6 +101,7 @@ h3 {
 .img-search {
     width: 25px;
     margin-top: 10px;
+    
 }
 .img-libreria {
     width: 25px;
@@ -311,16 +312,12 @@ h3 {
     margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
     border-radius: 20px;
 }
 .barra2 {
     background-color: #5A5A5A;
     width: 150px;
     height: 5px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
     border-radius: 20px;
     margin-top: 5px;
 }
@@ -331,6 +328,12 @@ h3 {
 .side_comandi .fas {
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+.side_comandi .far {
+    margin-top: 5px;
+    color: white;
 }
 .side_comandi {
     justify-content: center;
@@ -341,7 +344,26 @@ h3 {
 .right .fas {
     margin-left: 10px;
     margin-right: 10px;
+    color: white;
 }
 .right {
     align-items: center;
+}
+.barra3 {
+    width: 100px;
+    height: 5px;
+    background-color: #C1C1C1;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: -520px;
+    margin-right: 422px;
+}
+.barra4 {
+    height: 5px;
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: #C1C1C1;
+    margin-left: -150px;
+    margin-right: 110px;
 }
