@@ -6,6 +6,7 @@
 /* utility */
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
     
 }
 .flex {
@@ -55,10 +56,10 @@ h3 {
  .played {
      background-color: #141922;
      width: 1441px;
-     height: 1500px;
+     height: calc(100vh - 80px);
      z-index: 1;
      position: relative;
-     overflow-y: ato;
+     overflow-y: auto;
  }
  .upgrade {
      width: 1440px;
@@ -372,6 +373,7 @@ hr {
 }
 .right {
     align-items: center;
+    margin-right: 20px;
 }
 .barra3 {
     width: 100px;
