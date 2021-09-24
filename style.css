@@ -58,7 +58,7 @@ h3 {
      height: 1500px;
      z-index: 1;
      position: relative;
-     overflow-y: auto;
+     overflow-y: ato;
  }
  .upgrade {
      width: 1440px;
@@ -68,6 +68,7 @@ h3 {
      z-index: 2;
      top: 0%;
      position: fixed;
+     
 }
 .barra-ascolto {
      position: absolute;
@@ -181,7 +182,15 @@ h3 {
    
 }
 .linea {
-    border-bottom: 1px solid #ADFF2F;
+    top: 0px;
+}
+hr {
+   width: 30px;
+   margin-left: 40px;
+   border-color: #ADFF2F;
+}
+.inevidenza {
+    margin-top: -3px;
 }
 .prima-riga {
     width: 63%;
@@ -195,6 +204,21 @@ h3 {
     text-align: center;
     font-size: 12px;
     margin-top: 5px;
+}
+.img-sfondo {
+    position: relative;
+}
+.img-sfondo .far {
+    color: white;
+    padding-left: 59px;
+    padding-top: 32px;
+}
+.hover {
+    position: absolute;
+    top: 53px;
+    left: 56px;
+    visibility:hidden;
+    
 }
 .img-stranger {
     width: 175px;
@@ -366,4 +390,148 @@ h3 {
     background-color: #C1C1C1;
     margin-left: -150px;
     margin-right: 110px;
+} 
+.pallino-barra {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -425px;
+    margin-top: 2px;
+    margin-right: 413px;
+    visibility: hidden;
 }
+.pallino-barra2 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -112px;
+    margin-right: 103px;
+    margin-top: 4px;
+    visibility: hidden;
+}
+/******** /mine **********/
+p:hover {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.text-sinister1:hover {
+    text-decoration: underline;
+}
+.text-sinister2:hover {
+    text-decoration: underline;
+}
+.uno:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    height: 61.3%;
+    top: 20px;
+    left: 0px;
+ }
+ .due:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 90%;
+    height: 61.3%;
+    top: 20px;
+    left: 15px;
+ }
+ .tre:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 61.3%;
+    top: 20px;
+    left: 15px;
+ }
+ .quattro:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 61.3%;
+    top: 20px;
+    left: 15px;
+ }
+ .cinque:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 61.3%;
+    top: 20px;
+    left: 15px;
+ }
+ .sei:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 61.3%;
+    top: 20px;
+    left: 15px;
+ }
+ .sette:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    height: 77%;
+    top: 20px;
+    left: 0px;
+ }
+ .otto:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 77%;
+    top: 20px;
+    left: 15px;
+ }
+ .nove:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    height:77%;
+    top: 20px;
+    left: 0px;
+ }
+ .dieci:hover .hover {
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.486);
+    width: 92%;
+    height: 77%;
+    top: 20px;
+    left: 15px;
+ }
+.center:hover .barra3{
+    background-color: chartreuse;
+}
+.right:hover .barra4{
+    background-color: chartreuse;
+}
+.left .far:hover {
+    color: white;
+}
+.center:hover .pallino-barra {
+    visibility: visible;
+}
+.right:hover .pallino-barra2 {
+    visibility: visible;
+}
+.button_upgrade:hover {
+    width: 240px;
+    height: 45px;
+    color: white;
+    margin-left: 83%;
+    background-color: #080B12;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+/* media query */
+@media screen and (max-width: 1300px) {
+    .recently {
+        flex-wrap: wrap;
+    }
+  }
